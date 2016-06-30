@@ -3,7 +3,9 @@ layout: page
 title: About me
 permalink: /about
 ---
+{% highlight swift %}
 print("Hello, Huyanh")
+{% endhighlight %}
 
 /* About me page */
 learnMore()

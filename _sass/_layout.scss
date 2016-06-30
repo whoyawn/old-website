@@ -25,6 +25,15 @@
     }
 }
 
+/**
+* Profile
+*/
+.profile-img {
+    border-radius: 50%;
+    width: 50px;
+    margin-top: 3px; /*if set padding, the box would stay the same but the insides would stretch to fill*/
+}
+
 .site-nav {
     float: right;
     line-height: 56px;

@@ -18,7 +18,9 @@ url: "https://huyanhhoang.me" # the base hostname & protocol for your site
 twitter_username: whoyawn
 github_username:  huyanhh
 linkedin_username: huyanhh
+youtube_username: huyanhh
 medium_username: whoyawn
+
 
 # Build settings
 markdown: kramdown

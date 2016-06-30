@@ -14,15 +14,16 @@ specialization in computer software development and user experience design. I ha
 and technology, and outside of school I am part of groups such as iOS OC meetup and User Experience
 meetup, so you'll find me frequently going to such events.
 
-What do I like to do in my free time? Well I've been becoming a recent fan of:
+What do I like to do in my free time? Well, I've been becoming a recent fan of:
 
-{% highlight swift %}
+{% highlight swift %
+
 for thing in stuffThatILike {
     print(thing)
 }
-{% endhighlight %}
+print("-------------")
 
-{% highlight swift %}
+-------------
 building iOS apps
 MOOCS
 books
@@ -32,6 +33,7 @@ tennis
 mechanical keyboards
 anime
 {% endhighlight %}
+-------------
 
 Favorite...
 Data type: protocols

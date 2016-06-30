@@ -22,6 +22,7 @@ for thing in stuffThatILike {
 }
 {% endhighlight %}
 
+{% highlight swift %}
 building iOS apps
 MOOCS
 books
@@ -29,8 +30,8 @@ hackathons
 powerlifting
 tennis
 mechanical keyboards
-anime!
-
+anime
+{% endhighlight %}
 
 Favorite...
 Data type: protocols

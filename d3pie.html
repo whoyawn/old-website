@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<div id="pieChart" style="margin-left: 50pt;"></div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
+<script src="d3pie.min.js"></script>
+<script>
+    var pie = new d3pie("pieChart", {
+        "header": {
+            "title": {
+                "text": "Top Programming Languages",
+                "fontSize": 24,
+                "font": "open sans"
+            },
+            "subtitle": {
+                "text": "Looking for a particular skill set? You got it.",
+                "color": "#999999",
+                "fontSize": 12,
+                "font": "open sans"
+            },
+            "titleSubtitlePadding": 9
+        },
+        "footer": {
+            "text": "Skill experience organized by months",
+            "color": "#999999",
+            "fontSize": 10,
+            "font": "open sans",
+            "location": "bottom-left"
+        },
+        "size": {
+            "canvasWidth": 590,
+            "pieOuterRadius": "90%"
+        },
+        "data": {
+            "sortOrder": "value-desc",
+            "content": [
+                {
+                    "label": "Swift",
+                    "value": 7,
+                    "color": "#EF5138"
+                },
+                {
+                    "label": "Python",
+                    "value": 7,
+                    "color": "#FFDC53"
+                },
+                {
+                    "label": "Git",
+                    "value": 7,
+                    "color": "#F54D27"
+                },
+                {
+                    "label": "C++",
+                    "value": 5,
+                    "color": "#6087bb"
+                },
+                {
+                    "label": "HTML/CSS",
+                    "value": 5,
+                    "color": "#ff7821"
+                },
+                {
+                    "label": "Java",
+                    "value": 3,
+                    "color": "#ff3131"
+                },
+                {
+                    "label": "D3.js",
+                    "value": 5,
+                    "color": "#ff9800"
+                },
+                {
+                    "label": "SQL",
+                    "value": 3,
+                    "color": "#005783"
+                },
+                {
+                    "label": "Node.js",
+                    "value": 3,
+                    "color": "#65ff26"
+                },
+                {
+                    "label": "MongoDB",
+                    "value": 3,
+                    "color": "#77d26b"
+                }
+            ]
+        },
+        "labels": {
+            "outer": {
+                "pieDistance": 32
+            },
+            "inner": {
+                "format": "value",
+                "hideWhenLessThanPercentage": 3
+            },
+            "mainLabel": {
+                "fontSize": 11
+            },
+            "percentage": {
+                "color": "#ffffff",
+                "decimalPlaces": 0
+            },
+            "value": {
+                "color": "#ffffff",
+                "fontSize": 12
+            },
+            "lines": {
+                "enabled": true,
+                "style": "straight",
+                "color": "#000000"
+            },
+            "truncation": {
+                "enabled": true
+            }
+        },
+        "tooltips": {
+            "enabled": true,
+            "type": "placeholder",
+            "string": "{label}: {value} months, {percentage}%"
+        },
+        "effects": {
+            "pullOutSegmentOnClick": {
+                "effect": "linear",
+                "speed": 400,
+                "size": 8
+            }
+        },
+        "misc": {
+            "gradient": {
+                "enabled": true,
+                "percentage": 100,
+                "color": "#5b5b5b"
+            }
+        },
+        "callbacks": {}
+    });
+</script>
+
+</body>
+</html>

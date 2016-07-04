@@ -11,19 +11,19 @@ learnMore()
 
 I'm a student studying at the University of California, Irvine under the school of Informatics, with a
 specialization in computer software development and user experience design. I have a passion for learning
-and technology, and outside of school I am part of groups such as the iOS OC meetup and User Experience
+and technology, and outside of school I am part of groups such as iOS OC meetup and User Experience
 meetup, so you'll find me frequently going to such events.
 
 What do I like to do in my free time? Well, I've been becoming a recent fan of:
 
 {% highlight swift %}
-print("Things I like to do:\n")
+print("Things I like:\n")
 for thing in stuffThatILike {
     print(thing)
 }
 {% endhighlight %}
 
-Things I like to do:
+Things I like:
 
 building iOS apps\\
 MOOCS\\

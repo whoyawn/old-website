@@ -5,3 +5,6 @@ permalink: /books/
 ---
 
 This is where I will write about the books that I've been reading.
+
+Current Reading List:
+

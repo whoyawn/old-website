@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Resume
-permalink: /HuyanhHoang-Resume-iOS.pdf
+permalink: /HuyanhHoang-Resume(generalswe).pdf
 ---

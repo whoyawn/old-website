@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9c9cab2-0065-4e06-8375-d3d58e54d880" name="Default" comment="" />
+    <list default="true" id="a9c9cab2-0065-4e06-8375-d3d58e54d880" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HuyanhHoang-Resume-iOS.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resume.md" afterPath="$PROJECT_DIR$/Resume.md" />
+    </list>
     <ignored path="huyanhh.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/books/index.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
@@ -56,6 +59,22 @@
             <state split_layout="FIRST">
               <first_editor relative-caret-position="320">
                 <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Resume.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resume.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="48">
+                <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -118,7 +137,6 @@
         <option value="$PROJECT_DIR$/_includes/icon-github.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_posts/2016-06-28-welcome-to-jekyll.markdown" />
-        <option value="$PROJECT_DIR$/Resume.md" />
         <option value="$PROJECT_DIR$/Books/index.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
@@ -133,6 +151,7 @@
         <option value="$PROJECT_DIR$/bless.js" />
         <option value="$PROJECT_DIR$/d3pie.html" />
         <option value="$PROJECT_DIR$/books/index.md" />
+        <option value="$PROJECT_DIR$/Resume.md" />
       </list>
     </option>
   </component>
@@ -366,12 +385,12 @@
       <workItem from="1469718974729" duration="488000" />
       <workItem from="1470875630471" duration="151000" />
       <workItem from="1471213206241" duration="200000" />
-      <workItem from="1471810012714" duration="789000" />
+      <workItem from="1471810012714" duration="904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27121000" />
+    <option name="totallyTimeSpent" value="27236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="989" extended-state="6" />
@@ -683,19 +702,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/icon-github.html" />
     <entry file="file://$PROJECT_DIR$/_includes/icon-github.svg" />
-    <entry file="file://$PROJECT_DIR$/Resume.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="80">
-            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -878,6 +884,20 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="320">
             <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resume.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="48">
+            <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
             <folding />
           </first_editor>
           <second_editor />

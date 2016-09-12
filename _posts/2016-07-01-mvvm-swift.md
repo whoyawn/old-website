@@ -5,6 +5,8 @@ date:   2016-06-28 18:41:53 -0700
 categories: iOS
 ---
 
+post not finished, uploading to medium once done
+
 As long as I follow the rules of MVVM, it probably doesn't matter if I have an array
 of view models or if it's just one view model per controller instantiated with the array
 of data inside the view model.

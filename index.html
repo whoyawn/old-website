@@ -12,14 +12,18 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-    <dt><time>{{ post.date | date: "%d %b %Y" }}</time></dt>
-    <dd>
-      {% if post.external_url %}
-      [{{ post.title }}]({{ post.external_url }})
-      {% else %}
-      [{{ post.title }}]({{ post.url }})
-      {% endif %}
-    </dd>
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          {% if post.external_url %}
+            <a  class="post-link" href="{{ post.external_url }}">{{ post.title }}</a>
+            <p style="font-size: 45%; float: left; margin-bottom: 10px">({{ post.external_url_base }})</p>
+          {% else %}
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          {% endif %}
+        </h2>
+      </li>
     {% endfor %}
   </ul>
 

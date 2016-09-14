@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Use case for ViewModels inside a tableView
-date:   2016-06-28 18:41:53 -0700
+title:  Hello world
+date:   2016-07-01 00:00:00 -0800
 categories: iOS
 ---
 

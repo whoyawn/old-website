@@ -6,4 +6,3 @@ external_url: https://medium.com/@whoyawn/rohm-problem-solution-interview-learni
 external_url_base: medium
 categories: lean startup
 ---
-
